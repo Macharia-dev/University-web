@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>High Ford University</title>
+</head>
+<body>
+<section class="sub-header">
+    <nav>
+       <a href="index.html"><img src="img/logo.jpeg"></a>
+       <div class="nav-link" id="navLinks">
+        <i class="fa fa-times" onclick="hideMenu()"></i>
+        <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="course.html">COURSES</a></li>
+            <li><a href="blog.html">BLOG</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+            
+        </ul>
+       </div>
+       <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+      <h1>About Us</h1> 
+</section>
+<section class="about-us">
+    <div class="row">
+        <div class="about-col">
+            <h1>We Offer Best Enducation And Skills To All Students</h1>
+            <p>Welcome to our institution, where academic excellence 
+                thrives and aspirations soar. With a rich history and a commitment 
+                to innovation, we provide a dynamic learning environment where students are 
+                empowered to explore their passions and make a difference. Our diverse community celebrates 
+                inclusivity and fosters a culture of lifelong learning.
+                 Join us on a journey of discovery and transformation as we shape 
+                 a brighter future together. <br>
+                 As we look to the future, we remain steadfast in our mission to 
+                 empower individuals to reach their full potential and make a positive impact on society. Whether you're a prospective student, faculty member, or community partner, we invite you to join us on this journey of discovery and transformation. Together, we can continue to push the boundaries of 
+                 knowledge and shape a brighter tomorrow for generations to come.
+            </p>
+            <a href="" class="hero-btn red-btn">EXPLORE NOW</a>
+
+        </div>
+        <div class="about-col">
+            <img src="img/about.jpeg" alt="About us image">
+        </div>
+
+
+    </div>
+  
+
+</section>
+    
+
+  </section>
+  <section class="footer">
+        <h4>About Us</h4>
+        <p>Welcome to<b> HIGH SCORE UNIVERSITY!</b> We're committed to providing quality 
+            education in a supportive environment. <br> With dedicated faculty, modern facilities, and a focus
+             on student well-being, we're here to help you succeed. Explore our programs and join our vibrant community today!</p>
+            <div class="icon">
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-instagram"></i>
+                <i class="fa fa-linkedin"></i>
+                
+
+            </div>
+            <p>Made with <i class="fa fa-heart-o"></i>by David Macharia</p>
+
+
+    </section>
+
+<script>
+        var navLink=document.getElementById("navLinks");
+        function showMenu() {
+            navLinks.style.right="0";
+        }
+        function hideMenu() {
+            navLink.style.right="-200px";
+        }
+</script>
+</body>
+</html>

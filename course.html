@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>High Ford University</title>
+</head>
+<body>
+<section class="sub-header">
+    <nav>
+       <a href="index.html"><img src="img/logo.jpeg"></a>
+       <div class="nav-link" id="navLinks">
+        <i class="fa fa-times" onclick="hideMenu()"></i>
+        <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="course.html">COURSES</a></li>
+            <li><a href="blog.html">BLOG</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+            
+        </ul>
+       </div>
+       <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+      <h1>The Courses Our University Offers</h1> 
+</section>
+<section class="course">
+    <h1>Courses We Offer</h1>
+    <p>Our campus offers a variety of courses spanning from 
+        foundational intermediate programs to specialized degree courses
+         in fields like Engineering, Medicine, Business, Arts, and Humanities.
+          Our postgraduate offerings include Master's degrees, PhDs, and professional certifications, 
+          
+          allowing students to further specialize and engage in advanced studies or research. With a focus on academic
+           excellence and practical skills development, our courses prepare students for success in their chosen careers.
+    </p>
+    <div class="row">
+        <div class="course-col">
+            <h3>Intermediate</h3>
+            <p>At our campus, we offer a diverse range of educational opportunities,
+                 catering to students at various stages of their academic journey. For those
+                  fresh out of high school, our intermediate courses serve as the gateway to higher education. These 
+                  programs span a variety of subjects, including Mathematics, Science, Social Studies, and Languages. Over the
+                   course of two years, students delve into foundational concepts, laying the groundwork for their future academic pursuits. Our 
+                   intermediate courses are designed to equip students with 
+                the essential skills and knowledge needed to thrive in more advanced studies.
+            </p>
+        </div>
+        <div class="course-col">
+            <h3>Degree</h3>
+            <p>Moving on to our degree courses, students
+                 who have successfully completed their intermediate education can 
+                 specialize in a field of their choice. Whether it's Engineering, Medicine, Business, Arts, or 
+                 Humanities, our degree programs offer in-depth learning experiences tailored to each discipline. Through a 
+                 combination of classroom instruction, practical exercises, and hands-on projects, students develop a comprehensive 
+                 understanding of their chosen subject matter. Upon graduation, they earn a bachelor's degree, equipped with the expertise necessary to excel in their respective fields
+
+             </p>
+        </div>
+        <div class="course-col">
+            <h3>Post-Graduate Courses</h3>
+            <p>For those seeking to take their education to the next level, our postgraduate 
+                courses provide a pathway to advanced studies and specialization. These programs are designed for students who have
+                
+                
+                completed their bachelor's degree and wish to further refine their skills or pursue research opportunities. Whether it's 
+                
+                a Master's degree, PhD, or professional certification, our postgraduate offerings provide a platform for intellectual
+                 growth and academic achievement. With access to world-class faculty, state-of-the-art facilities, and a vibrant learning 
+                 community, students embark on a journey of discovery, pushing the boundaries of knowledge in their chosen field.
+
+            </p>
+        </div>
+
+
+    </div>
+
+
+
+
+</section>
+<section>
+    <section class="facilities">
+      <h1>Our Facilities</h1> 
+      <p>Our campus boasts top-notch facilities to enrich student life. 
+       The library offers a wealth of resources for academic exploration.
+        Our spacious playing ground promotes physical well-being and
+        sportsmanship. And our clean dining hall serves up tasty, nutritious meals to fuel student success.</p>
+      <div class="row">
+       <div class="facilities-col">
+           <img src="img/libary.jpeg" alt="library">
+           <h3>Our Library</h3>
+           <p>well-equipped library is a hub of knowledge, offering a vast collection
+            of books, journals, and digital resources to support academic research and learning.
+             With comfortable study spaces and access to expert librarians,
+            students have the perfect environment to enhance their understanding and explore new ideas.
+           </p>
+       </div>
+       <div class="facilities-col">
+           <img src="img/field.jpeg" alt="Field">
+           <h3>Playing Ground</h3>
+           <p> Our expansive playing ground provides students with ample opportunities
+                for physical activity and recreation. From sports fields to outdoor courts, students can engage 
+               in various sports and leisure activities, promoting holistic development and a healthy lifestyle.
+           </p>
+       </div>
+       <div class="facilities-col">
+           <img src="img/valpo-dining-1536x1025.jpg " alt="Dining img">
+           <h3>Tasty and Healthy Food</h3>
+           <p>Our clean dining facilities serve tasty and nutritious meals, catering 
+               to diverse dietary preferences and ensuring students' well-being. With a focus on 
+               quality ingredients and hygienic preparation, students can 
+               enjoy delicious food in a safe and welcoming environment, fueling their bodies and minds for success.
+           </p>
+       </div>
+       
+   </section>
+ </section>
+
+    
+
+ 
+  <section class="footer">
+        <h4>About Us</h4>
+        <p>Welcome to<b> HIGH SCORE UNIVERSITY!</b> We're committed to providing quality 
+            education in a supportive environment. <br> With dedicated faculty, modern facilities, and a focus
+             on student well-being, we're here to help you succeed. Explore our programs and join our vibrant community today!</p>
+            <div class="icon">
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-instagram"></i>
+                <i class="fa fa-linkedin"></i>
+                
+
+            </div>
+            <p>Made with <i class="fa fa-heart-o"></i>by David Macharia</p>
+
+
+    </section>
+
+<script>
+        var navLink=document.getElementById("navLinks");
+        function showMenu() {
+            navLinks.style.right="0";
+        }
+        function hideMenu() {
+            navLink.style.right="-200px";
+        }
+</script>
+</body>
+</html>
